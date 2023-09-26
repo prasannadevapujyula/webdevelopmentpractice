@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .para{
-            color: blueviolet;
-            font-size: 45px;
-        }
-        .love{
-            background-color: red;
-        }
-    </style>
 </head>
 <body>
-    <p class="para"> this is paragraph</p>
-    <div class="love"> this is love</div>
-    
+   <script>
+    class person{
+        constructor(name,age,mobile){
+            this.name=name;
+            this.age=age;
+            this.mobile=mobile;
+        }
+        walk(){
+                console.log(this.name+"is dancing")
+        }
+        reading(){
+            console.log(this.name+"is singing")
+        }
+        
+    }
+    var p1=new person("prasanna",21,"992562t78");
+    var p2=new person("harsha",23,"97689767787");
+    console.log(p1)
+    console.log(p2)
+    p2.walk()
+    p1.reading()
+
+   </script> 
 </body>
 </html>
