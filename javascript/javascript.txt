@@ -1,0 +1,132 @@
+javascript is a programming language and its based on oops based language it is a procedural language ex: java,python,c,c++
+the one which computes the computer is processor that is inside the cpu
+we have to give instructions to the processors
+code is a lines of instructions
+procesor is a combination of 0 and 1
+any oops language has definitely has procedural concepts into it
+
+**html dom manipulation is imp
+static webpage means it cannot be changed like a constant webpage
+where as dynamic is a webpage that changes from person to person 
+static has 2 types dynamic and static
+html css bootstrap use cgesthey static
+if we use js then it chamges to dynamic
+html,css doesnot have logic implementation
+js is a programming language because it has logic implementation
+ 
+Syntax:
+ it is nothin but grammer or it can be defined as rules
+ variables are nothing but containers
+ we use programs to solve problems .
+for handling data we have to store the data to store them we use containers they are present at the main memory of the computer.
+
+constants or literals:
+the values which cannot be changed are called constants.
+
+keywords are the words that have predefined meaning in a programming language. 
+var and let are the keywords.
+let x; here the container is created
+x=6; 6 is stored in the container.
+semicolon os not mandatory.
+variables can be changed. 
+variable name shd not be equal to the keywords
+(let var_name;
+var var_name;)
+it shd not strt with a number.
+
+comments :
+they can be written by using //
+or /* --------- */
+comment is a line in code that is not executed.
+rules for naming variable:
+
+they are also called identifiers.
+they start with a-z or (A-Z)
+they can strt with 
+
+(let) lo manam arithematic operations ni use chyachu 
+
+js ni test chydanki we can go to any webpage and click on console and type there any errors can be shown there if present
+ikkada output ni dusplay chydankin weuse alert()
+console.log ni manam output choodadanki use choostham
+
+DATATYPES:
+
+program lo data ni temporary ga use chestham daaniki manm variable 
+use chestham and those different kinds of dta have different kinds 
+of containers those are called DATATYPES
+
+oke identifier lo most of the data store chyylantey we use arrays and they are stored in square brackets
+
+
+arrays:
+oka variable lo max oka element ni matrame store chygalam ala kakunda ekkuva elements ni store cheyagalgithey danne array antam 
+basically array is an datatype.
+const keyword must be used while using array
+arrays are used for collections of data
+
+Functions:
+
+it is a block of code whichhas a name.
+normal ga code ni okasare chyyachu if a code is written as a fuction then we can use the Functions ass our wish in multiple times
+when we use function then the code gets cleared
+debugging becomes easier(errors rectifier)
+
+in js function can be written as
+
+function(keywod)iss used
+
+function functionname(arguments/parameters)
+{
+    --------
+    --------   (block of code)
+    --------
+}
+arguments/parameters
+
+function defining
+function calling
+
+whenever the function is called we have to send a code
+
+if the block of code is written to add 2 numbers
+
+function add(a,b)
+{
+    let c=a+b;
+    return c;  
+}
+
+let x=add(2,3)
+
+
+classes and objects:
+
+there is no classes in js we only have objects
+numbers, words,characters,sentences,floating are the datatypes that are stored using objects.
+properties or attributes are the same these are used to show real world entities 
+they must show function asa well these show the functionality or behaviour
+properties (variables)+functionality(functions) = objects( A new type of variable - a complex variable)
+
+an object creation:
+
+const person = {name:"panda",
+                 age:"21",
+                 grade:"a",
+                 fullname: function(){
+                    return this.surname+ " " + this. name;}
+}
+this is used for taking from local code 
+return antey manaki kavalsina statement
+
+DOM concept:
+ document object model
+  evry element in a doc of a html is an object
+  
+                
+ 
+
+
+
+
+

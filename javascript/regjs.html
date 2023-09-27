@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <div>
+        <label> username</label>
+        <input type="text" value="" id="username"><br><br>
+        <label> email </label>
+        <input type="text" value="" id="email"><br><br>
+        <label> date of birth</label>
+        <input type="date" value="" id="dob"><br><br>
+        <label>mobile number</label>
+        <input type="number" value="" id="number"><br><br>
+        <label> Gender</label>
+        <input type="radio" name="gender" id="male"> male
+        <input type="radio" name="gender" id="female"> female<br><br>
+        <label> password</label>
+        <input type="password"  value="" id="password"> <br> <br>
+        <input type="button" value="submit" id="button" onclick="submitform">
+        
+    </div>
+    <script>
+       
+        function submitform(){
+            var username = document.getElementById("username");
+            var email = document.getElementById("email");
+            var dob=document.getElementById("dob");
+            var number=document.getElementById("number");
+            var password=document.getElementById("password");
+            var gender=document.getElementById("gender");
+            console.log(username.value)
+            console.log(email.value)
+            console.log(dob.value)
+            console.log(number.value)
+            console.log(password.value)
+            console.log(gender.value)
+        }
+    </script>
+</body>
+</html>

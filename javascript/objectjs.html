@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>students</title>
+</head>
+<body>
+    <script>
+        var marks={
+            telugu:98,
+            hindi:96,
+            english:97,
+            physics:99,
+            chemistry:98,
+            social:99,
+            totalmarks:function(){
+                return("total:",marks.telugu+marks.hindi+marks.english+marks.physics+marks.chemistry+marks.social)
+            },
+        
+            average:function(){
+                return(this.totalmarks()/6)
+            },
+            
+
+        }
+        console.log(marks.totalmarks())
+        console.log(marks.average())
+        
+        if(marks.average()>=95){
+            console.log("distinction", marks.average())
+        }
+        else if(marks.average()>=90){
+            console.log("A+ Grade")
+        }
+        else if(marks.average()>=85){
+            console.log("A grade")
+        }
+        else if(marks.average()>=60) {
+            console.log("pass")
+        }
+        else{
+            console.log("Fail")
+        }
+
+    </script>
+</body>
+</html>

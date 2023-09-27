@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="username" onblur="blurEvent()">
+    <input type="password" id="password" onblur="changeEvent()">
+    <input type="text" id="select" value="somevalue" onselect="selectHandler()">
+    <script>
+        function blurEvent(){
+            var useraname=document.getElementById=("username")
+            console.log(username.value)
+        }
+        function changeEvent(){
+            var useraname=document.getElementById=("password");
+            password.style.border="1px black"
+            password.style.backgroundColor="blur"
+
+        }
+        function selectHandler(){
+            alert("text is selected!!")
+        }
+    </script>
+</body>
+</html>

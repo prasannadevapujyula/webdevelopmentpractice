@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let promise1=  new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("success")
+
+        },2000)
+    })
+        let promise2=  new Promise((resolve,reject)=>{
+            setTimeout(()=>{
+                reject("something went wrong")
+    
+            },3000)
+        })
+        
+        promise1.then((res) =>{
+    console.log(res)
+        })    
+        promise2.catch((err)=>{
+            console.log(err)
+        })
+        //combining promises
+         let promise3=new Promise((resolve,reject)=>{
+            resolve("successfully completed")
+            reject("something is wrong")
+         })
+         promise3.then((res)=>{
+            console.log(res)
+         }).catch((err)=>{
+            cosnsole.log(err)
+
+         })
+    </script>
+</body>
+</html>
