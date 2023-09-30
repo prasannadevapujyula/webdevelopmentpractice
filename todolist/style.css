@@ -1,0 +1,31 @@
+h1{
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+#task{
+    padding: 10px;
+    border-color: black;
+    border-radius: 0px;
+    border-width: 2px;
+    color:maroon;
+    
+
+}
+#addtask{
+
+    border-radius: 10px;
+    padding: 5px;
+    background-color:rgb(170, 218, 87);
+}
+#tasks{
+    color:rgb(10, 10, 10);
+    border: 10px;
+    border-color: black;
+    background-color: rgb(221, 220, 220);
+    list-style-type: none;
+    display:flexbox;
+    
+
+}
+
