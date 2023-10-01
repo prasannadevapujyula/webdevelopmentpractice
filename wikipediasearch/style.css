@@ -1,0 +1,26 @@
+
+
+#search{
+
+    border-color:black;
+    border-width: 2px;
+    box-sizing: border-box;
+    width: 300px;
+    
+
+}
+
+#searchbtn{
+    width: 60px;
+    cursor: pointer;
+    border: none;
+    color: rgb(8, 7, 7);
+    
+
+}
+.container{
+    margin: none;
+    text-align: center;
+}
+
+

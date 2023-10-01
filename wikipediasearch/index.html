@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wikipedia search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lightgrey">
+    <div class="container">
+        <h1> wikipedia search</h1>
+        <input type="text" id="search">
+        <br><br>
+        <input type="button" id="searchbtn" value="search"onclick="search()"/>
+        <p id="searchresults"></p>
+    </div>
+</body>
+<script>
+    function search(){
+        var searchItem=document.getElementById("search").value
+        var searchresults=document.getElementById("searchresults");
+        searchresults.innerHTML= "search Results are:" +searchItem;
+    }
+</script>
+</html>                                                                                                        
